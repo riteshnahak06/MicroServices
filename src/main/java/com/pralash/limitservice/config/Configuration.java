@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@ConfigurationProperties("limit-services")
+@ConfigurationProperties("limit-service")
 @Component
 public class Configuration {
     private Integer minimum;
